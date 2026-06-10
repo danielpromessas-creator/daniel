@@ -1,0 +1,16 @@
+{
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "header",
+          "key": "user-agent",
+          "value": "(.*)Instagram(.*)"
+        }
+      ],
+      "destination": "intent://v0-layout-player-mp3.vercel.app/$1#Intent;scheme=https;package=com.android.chrome;end",
+      "permanent": false
+    }
+  ]
+}
