@@ -1,11 +1,10 @@
-```tsx
 "use client"
 
 import { useCallback, useEffect, useRef, useState } from "react"
 
 // URL da playlist (set) do SoundCloud informada pelo usuário
 const PLAYLIST_URL =
-  "https://on.soundcloud.com/XuS0ju2gR7uwhgm03R"
+  "https://soundcloud.com/simpsom-daniel/sets/pkvs6jduxcj8"
 
 const WIDGET_SRC =
   "https://w.soundcloud.com/player/?url=" +
